@@ -1,12 +1,14 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import Portfolio from './components/Portfolio';
 
-function App() {
+const App = () => {
   return (
     <div className="portfolio">
       <Portfolio />
     </div>
   );
 }
+
+// const App = () => <Portfolio />;
 
 export default App;
