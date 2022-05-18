@@ -1,9 +1,12 @@
 import React from 'react';
+import windsor from '../../assets/images/windsor.jpg';
 
 export default function Home() {
     return (
         <div>
-            <h1>Insert Home here</h1>
+            <p className='name'>Alfred Garraffa</p>
+            <img className="header-img" src={windsor} alt="paramotor flight"></img>
+                    
         </div>
     )
 }

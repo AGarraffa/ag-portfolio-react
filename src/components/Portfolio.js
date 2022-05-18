@@ -6,6 +6,8 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 // style the resume for the web but include the pdf to download;
+import '../assets/css/reset.css'
+import '../assets/css/style.css'
 
 export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -34,16 +36,14 @@ export default function Portfolio() {
 
     // include the hero image as well as anything that exists above the navbar
     return (
-        <div>
-            <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className='full-page'>
+            <div className='hero'>
+                <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
             {/* renders the selected page from the nav bar */}
+            <p>testing testing</p>
             {renderPage()}
         </div>
     )
 
-    // return (
-    //     <div>
-    //         <h1>This is a test</h1>
-    //     </div>
-    // )
 }

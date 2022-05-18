@@ -6,4 +6,4 @@ export default function Contact() {
             <h1>Contacts will go here</h1>
         </div>
     )
-}
+};
