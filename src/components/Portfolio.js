@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavLinks from './NavLinks';
+import Footer from './Footer';
 import Home from './pages/Home'
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -43,6 +44,7 @@ export default function Portfolio() {
             {/* renders the selected page from the nav bar */}
             <p>testing testing</p>
             {renderPage()}
+            <Footer />
         </div>
     )
 

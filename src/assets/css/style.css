@@ -34,9 +34,13 @@ body{
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
 nav{
       display: flex;
-      font-size: 2rem;
+      font-size: 3rem;
       background-color: var(--dark);
       color: var(--light);
       width: 100%;
@@ -49,12 +53,13 @@ nav{
 
 .name{
       font-weight: bold;
-      /* text-align: center; */
       color: var(--light);
       background-color: var(--medlight-opq);
-      font-size: 4rem;
+      font-size: 8rem;
       position: absolute;
       top: 4rem;
+      margin: 3rem;
+      margin-top: 5rem;
   }
 
 nav ul{
@@ -126,8 +131,8 @@ nav a:hover{
   font-weight: bold;
   color: var(--dark);
   text-align: center;
-  font-size: 4rem;
-  padding: 2rem 0 1rem 0;
+  font-size: 6rem;
+  padding: 5rem 0 2rem 0;
   background-color: var(--medlight);
 }
 
@@ -284,7 +289,84 @@ nav a:hover{
   height: 4rem;
 }
 
+.resume{
+  margin-left: 3rem;
+  color: var(--light)
+}
 
+.resume-section{
+  font-size: 3rem;
+
+}
+
+.school, .company, .proficiency{
+  font-size: 2.3rem;
+  text-decoration: underline;
+  padding-bottom: 0.75rem;
+}
+
+.degree, .experience{
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.date, .explanation{
+  font-size: 1.9rem;
+  padding: 0.5rem;
+}
+
+.prof-list{
+  font-size: 1.8rem;
+  list-style: disc;
+}
+
+.geology, .front-end, .back-end{
+  width: 33%;
+  float: left;
+}
+
+.prof-exp, .education{
+  width: 50%;
+  float: left;
+}
+
+.download-res{
+  font-size: 3rem;
+  background-color: var(--medlight);
+  margin: 2rem;
+  color: var(--light)
+}
+
+.res-link{
+  color: var(--light);
+  padding: 1rem;
+}
+
+.form{
+  padding: 3rem;
+  margin-top:1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#name, #email, #message{
+  width: 25%;
+  margin-left: 1rem;
+}
+
+#message{
+  line-height: 15rem;
+}
+
+.message-button{
+  background-color: var(--medlight);
+  padding: 1.3rem;
+}
+
+.form-group{
+  padding: 1rem;
+
+}
 /* larger phones */
 /* @media screen and (min-width: 415px)
     {
@@ -314,7 +396,6 @@ nav a:hover{
       .navtop{
         position: fixed;
         bottom: 1rem;
-        font-size: 5rem;
       }
 
       .about{
