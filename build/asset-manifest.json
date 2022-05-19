@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ag-portfolio-react/static/css/main.29767af0.css",
+    "main.js": "/ag-portfolio-react/static/js/main.a013c1e9.js",
+    "static/media/homepage-video.mp4": "/ag-portfolio-react/static/media/homepage-video.0b57cab6e3607c4e369a.mp4",
+    "static/media/lunar.jpg": "/ag-portfolio-react/static/media/lunar.160649b8d30676b18855.jpg",
+    "static/media/alpine.jpg": "/ag-portfolio-react/static/media/alpine.b6a0a53d28d2da4d36d0.jpg",
+    "static/media/windsor.jpg": "/ag-portfolio-react/static/media/windsor.33d36f7d9a01daaee2b4.jpg",
+    "static/media/lightning.jpg": "/ag-portfolio-react/static/media/lightning.b6ac8f85285e07f64772.jpg",
+    "static/media/instagram.png": "/ag-portfolio-react/static/media/instagram.47c5d71c30787db4f3d8.png",
+    "static/media/agarraffa-resume.pdf": "/ag-portfolio-react/static/media/agarraffa-resume.668057a2ab4cb36c67a0.pdf",
+    "static/media/mist.jpg": "/ag-portfolio-react/static/media/mist.882f2b41abf90584bd45.jpg",
+    "static/media/youtube.png": "/ag-portfolio-react/static/media/youtube.12459a7bf1ccaea661c6.png",
+    "static/media/linkedin.png": "/ag-portfolio-react/static/media/linkedin.7a5eab93c7daf7d2ceeb.png",
+    "static/media/email.png": "/ag-portfolio-react/static/media/email.9da303c996cd28974493.png",
+    "index.html": "/ag-portfolio-react/index.html",
+    "main.29767af0.css.map": "/ag-portfolio-react/static/css/main.29767af0.css.map",
+    "main.a013c1e9.js.map": "/ag-portfolio-react/static/js/main.a013c1e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29767af0.css",
+    "static/js/main.a013c1e9.js"
+  ]
+}
