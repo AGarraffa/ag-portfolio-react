@@ -71,10 +71,13 @@ export default function Resume() {
             <div className='front-end'>
                 <p className='proficiency'>Front End</p>
                 <ul className='prof-list'>
-                    <li>HTML</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
                     <li>JavaScript</li>
-                    <li>CSS</li>
+                    <li>JSX</li>
                     <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Materialize</li>
                     <li>Python (currently learning)</li>
                 </ul>
             </div>
@@ -87,7 +90,7 @@ export default function Resume() {
                     <li>Node</li>
                     <li>Express</li>
                     <li>MySQL/Sequelize</li>
-                    <li>MongoDB/Mongoos</li>
+                    <li>MongoDB/Mongoose</li>
                     <li>REST</li>
                 </ul>
             </div>
